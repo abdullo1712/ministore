@@ -10,7 +10,7 @@ const HomePage = () => {
   const { products, blogPosts, loading } = useData();
 
   if (loading) {
-    return <div style={{padding: '100px', textAlign: 'center', fontSize: '20px'}}>Yuklanmoqda...</div>;
+    // return <div style={{padding: '100px', textAlign: 'center', fontSize: '20px'}}>Yuklanmoqda...</div>;
   }
 
   const mobiles = products.filter(p => p.category === 'Phones').slice(0, 4);

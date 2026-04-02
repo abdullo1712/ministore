@@ -47,7 +47,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/posts')
+    fetch('https://jsonplaceholder.typicode.com/posts') 
       .then(res => res.json())
       .then(data => {
         const mappedProducts = data.slice(0, 20).map((post) => {
