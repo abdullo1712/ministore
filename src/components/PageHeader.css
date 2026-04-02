@@ -1,0 +1,36 @@
+.page-header {
+  background-color: #f3f4f6;
+  padding: 60px 0;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.page-header-title {
+  font-size: 40px;
+  font-weight: 400;
+  color: #111111;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.page-header-breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #7b7b7b;
+}
+
+.breadcrumb-home {
+  transition: color 0.2s;
+}
+
+.breadcrumb-home:hover {
+  color: #111;
+}
+
+.breadcrumb-current {
+  color: #111111;
+}

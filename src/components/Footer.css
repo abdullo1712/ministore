@@ -1,0 +1,142 @@
+.footer {
+  border-top: 1px solid var(--border-color);
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-logo {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111111;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.footer-logo-dot {
+  color: #72a4ce;
+}
+
+.footer-desc {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  color: #7b7b7b;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-social-link {
+  color: #a0a0a0;
+  transition: color 0.3s;
+}
+
+.footer-social-link:hover {
+  color: var(--accent-blue);
+}
+
+.footer-heading {
+  color: #111111;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-link-item {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #7b7b7b;
+  letter-spacing: 0.5px;
+  transition: color 0.3s;
+}
+
+.footer-link-item:hover, .footer-link-item.active {
+  color: var(--accent-blue);
+}
+
+.footer-contact-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #7b7b7b;
+}
+
+.footer-contact-link {
+  font-size: 14px;
+  color: #111111;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.footer-contact-text-mt {
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #7b7b7b;
+}
+
+.footer-phone {
+  font-size: 14px;
+  color: #111111;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--border-color);
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #7b7b7b;
+}
+
+.footer-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-shipping {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-payments {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-icon-img {
+  filter: grayscale(100%) opacity(40%);
+  transition: all 0.3s;
+}
+
+.footer-icon-img:hover {
+  filter: grayscale(0%) opacity(100%);
+}
+
+.footer-bottom-right a {
+  color: #7b7b7b;
+  font-weight: 500;
+  text-decoration: underline;
+}
